@@ -68,7 +68,7 @@ def tree(data,labels):
         theTree[bestFeatLabel][value] = tree(split(data,bestFeat, value),subLabels)
     return theTree
 
-labels=['model','engine','fueleco','fast']
+labels=['engine','fueleco','fast']
 data=[['prius','small','good','no'],
       ['civic','small','average','no'],
       ['gti','large','bad','yes']]
